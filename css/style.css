@@ -1,0 +1,17 @@
+body {
+    font: roboto;
+}
+
+h1 {
+    size: 48px;
+    color: #F9FAF8;
+}
+
+h2 {
+    size: 36px;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
