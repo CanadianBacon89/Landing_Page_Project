@@ -4,13 +4,33 @@ body {
 
 h1 {
     size: 48px;
+    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
 h2 {
     size: 36px;
+    font-weight: extra-bold;
     color: #1F2937;
 }
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero>p, li {
+    size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote>p {
+    font-style: light-italic;
+}
+
 
 button {
     background-color: #3882F6;
