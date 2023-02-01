@@ -23,14 +23,24 @@ h2 {
     color: #E5E7EB;
 }
 
+.footer {
+    background-color: #1F2937;
+    size: 18px;
+    color: #E5E7EB;
+}
+
 .quote {
     background-color: #E5E7EB;
+    size: 36px;
 }
 
-.quote>p {
-    font-style: light-italic;
+.call {
+    background-color: #3882F6;
 }
 
+.call>button {
+    border-color: #E5E7EB;
+}
 
 button {
     background-color: #3882F6;
