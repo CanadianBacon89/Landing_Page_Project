@@ -1,5 +1,5 @@
 body {
-    font: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -21,6 +21,16 @@ h2 {
 .hero>p, li {
     size: 18px;
     color: #E5E7EB;
+}
+
+.hero>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
