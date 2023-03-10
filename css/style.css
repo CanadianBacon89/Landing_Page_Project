@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    size: 18px;
 }
 
 h1 {
@@ -18,8 +19,8 @@ h2 {
     background-color: #1F2937;
 }
 
-.hero>p, li {
-    size: 18px;
+.hero>p, .hero>li {
+
     color: #E5E7EB;
 }
 
@@ -59,13 +60,33 @@ h2 {
 }
 
 .call {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    padding: 15px;
     background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.call>button {
+.call_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.call_text .first {
+    margin-bottom: -18px;
+}
+
+.call button {
     border-color: #E5E7EB;
 }
 
 button {
     background-color: #3882F6;
+    color: #F9FAF8;
 }
