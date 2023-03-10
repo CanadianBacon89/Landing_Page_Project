@@ -42,6 +42,20 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote .text {
+    max-width: 400px;
+}
+
+.quote .author {
+    margin-top: -20px;
+    margin-left: 200px;
 }
 
 .call {
