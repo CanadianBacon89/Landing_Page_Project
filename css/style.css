@@ -38,9 +38,11 @@ h2 {
     background-color: #1F2937;
     size: 18px;
     color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .quote {
@@ -63,15 +65,14 @@ h2 {
 }
 
 .call {
+    max-width: 550px;
     margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px;
     margin-bottom: 50px;
     padding: 15px;
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
