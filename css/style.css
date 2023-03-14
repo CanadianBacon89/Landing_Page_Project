@@ -19,14 +19,14 @@ h2 {
     background-color: #1F2937;
 }
 
-.hero>p, .hero>li {
-
+.hero>p {
     color: #E5E7EB;
 }
 
 .hero>ul {
+    color: #E5E7EB;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .links {
@@ -38,6 +38,9 @@ h2 {
     background-color: #1F2937;
     size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .quote {
