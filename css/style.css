@@ -55,6 +55,10 @@ h2 {
     padding: 50px;
 }
 
+.info img {
+    border-radius: 5px;
+}
+
 .quote .text {
     max-width: 400px;
 }
@@ -64,14 +68,21 @@ h2 {
     margin-left: 200px;
 }
 
-.call {
+.box {
     margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 15px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 650px;
+}
+
+.call {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -91,4 +102,5 @@ h2 {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
 }
