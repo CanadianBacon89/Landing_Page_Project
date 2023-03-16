@@ -50,17 +50,25 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .info .pair {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    max-width: 145px;
+    text-align: center;
 }
 
 .info .img {
     border: 3px solid #3882F6;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 5px;
 }
 
